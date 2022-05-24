@@ -1,0 +1,21 @@
+.header{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+
+    &-left{
+        width: 50%;
+        height: 100%;
+
+    }
+    &-right{
+        width: 50%;
+        height: 100%;
+        display: grid;
+        grid-template: repeat(4,1fr)/repeat(3,1fr);
+        background: linear-gradient(90deg,rgba($c-1,1),rgba($c-g,0.5),rgba($c-2,0.5));
+
+    }
+}

@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+$f-smo: 'Smooch', cursive;
+$f-tek: 'Teko', sans-serif;
+
+$c-g: rgb(150, 144, 70);
+$c-1: rgb(187, 184, 179);
+$c-2: rgb(31, 28, 22);
+
+
+@keyframes scalling{
+    0%{
+        transform: scale(0.01);
+        opacity: 0;
+
+    }
+    90%{
+        transform: scale(1.1);
+        opacity: 1;
+
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+
+    }
+}
